@@ -43,9 +43,17 @@ namespace HouseInfo.ExcelHandler
             {
                 excelWorker.CopyAddressToCalcSheet(rowFlat);
                 excelWorker.CopyInfoToFlatSheet(rowFlat);
-                if (!addressHouses.ContainsKey(excelWorker.addressOfHouse(rowFlat)))
+                if (settings_IDRES.sheetHouse.nonDuplicate)
                 {
-                    addressHouses.Add(excelWorker.addressOfHouse(rowFlat), true);
+                    if (!addressHouses.ContainsKey(excelWorker.AddressOfHouse(rowFlat)))
+                    {
+                        addressHouses.Add(excelWorker.AddressOfHouse(rowFlat), true);
+                        excelWorker.CopyInfoToHouseSheet(rowHouse);
+                        rowHouse++;
+                    }
+                }
+                else
+                {
                     excelWorker.CopyInfoToHouseSheet(rowHouse);
                     rowHouse++;
                 }
