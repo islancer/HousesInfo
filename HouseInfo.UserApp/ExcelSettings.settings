@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="HouseInfo.UserApp" GeneratedClassName="ExcelSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="WorksheetNameInCalc" Type="System.String" Scope="User">
+      <Value Profile="(Default)">лист запрос</Value>
+    </Setting>
+    <Setting Name="WorksheetFlatsNameInBD" Type="System.String" Scope="User">
+      <Value Profile="(Default)">tab1</Value>
+    </Setting>
+    <Setting Name="WorksheetHousesNameInBD" Type="System.String" Scope="User">
+      <Value Profile="(Default)">tab2</Value>
+    </Setting>
+    <Setting Name="AddressColumnsInFlats" Type="System.String" Scope="User">
+      <Value Profile="(Default)">B-F</Value>
+    </Setting>
+    <Setting Name="AddressInCalc" Type="System.String" Scope="User">
+      <Value Profile="(Default)">A32-E32</Value>
+    </Setting>
+    <Setting Name="СopiedIntervalsToFlatsWorksheet" Type="System.String" Scope="User">
+      <Value Profile="(Default)">A36-B36 = G-H; C36-Q36 = N-AB; B39-Q39 = AC-AR; E43 = A;</Value>
+    </Setting>
+    <Setting Name="СopiedIntervalsToHousesWorksheet" Type="System.String" Scope="User">
+      <Value Profile="(Default)">A43-R43 = A-R;</Value>
+    </Setting>
+    <Setting Name="FlatsBeginTableRow" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="FlatsStartRow" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="HousesBeginRow" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="HousesStartRow" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="NonDublicateHouses" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="AddressColumnsInHouses" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D-H</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
