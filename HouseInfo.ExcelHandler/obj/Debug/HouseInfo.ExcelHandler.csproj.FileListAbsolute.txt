@@ -1,6 +1,0 @@
-D:\VsProject\HouseInfo\HouseInfo.ExcelHandler\bin\Debug\HouseInfo.ExcelHandler.dll.config
-D:\VsProject\HouseInfo\HouseInfo.ExcelHandler\bin\Debug\HouseInfo.ExcelHandler.dll
-D:\VsProject\HouseInfo\HouseInfo.ExcelHandler\bin\Debug\HouseInfo.ExcelHandler.pdb
-D:\VsProject\HouseInfo\HouseInfo.ExcelHandler\obj\Debug\HouseInfo.ExcelHandler.csproj.ResolveComReference.cache
-D:\VsProject\HouseInfo\HouseInfo.ExcelHandler\obj\Debug\HouseInfo.ExcelHandler.dll
-D:\VsProject\HouseInfo\HouseInfo.ExcelHandler\obj\Debug\HouseInfo.ExcelHandler.pdb
